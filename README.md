@@ -8,21 +8,22 @@ Spring Boot application integrates cache with expiry capable quickly.
 
 ```xml
     <dependency>
-        <groupId>cn.unikue.springstarter</groupId>
+        <groupId>com.jiovan.spring.starter</groupId>
         <artifactId>cache-expiry-spring-boot-starter</artifactId>
         <version>LATEST</version>
     </dependency>
 ```
 
-> By default, this starter will auto take effect, you can turn it off by `spring.cache-expiry.enabled = false`
+> By default, this starter will auto take effect, you can turn it off by `jiovan.cache-expiry.enabled = false`
 
-- Configure Spring Boot `application.yml` with prefix `spring.cache-expiry` (**Optional**)
+- Configure Spring Boot `application.yml` with prefix `jiovan.cache-expiry` (**Optional**)
 
 ```yml
 spring:
     redis:
         host: 'localhost'
         port: 6379
+jiovan:
     cache-expiry:
         cache-interceptor:
             inject-cache-manager: true
@@ -42,7 +43,7 @@ spring:
 
 ## Document
 
-- Github: https://github.com/unikueltd/cache-expiry-spring-boot-starter
+- Github: https://github.com/jiovan-labs/cache-expiry-spring-boot-starter
 
 ## Requirement
 
@@ -56,12 +57,12 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to us](https://unikue.cn/donation) to support the development.
+You like this package? Then [donate to us](https://jiovan.com/donation) to support the development.
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: https://unikue.cn
+- Jiovan: https://jiovan.com

@@ -1,6 +1,6 @@
 # Cache Expiry for Spring Boot Starter
-# Copyright (c) 2020 Unikue Ltd. All rights reserved.
-# https://unikue.cn
+# Copyright (c) 2020 Jiovan Ltd. All rights reserved.
+# https://jiovan.com
 
 
 spring:
@@ -12,6 +12,7 @@ spring:
             port: 6379
             repositories:
                 enabled: false
+jiovan:
     cache-expiry:
         cache-interceptor:
             inject-cache-manager: true
