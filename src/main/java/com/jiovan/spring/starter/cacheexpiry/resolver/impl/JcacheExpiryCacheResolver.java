@@ -54,6 +54,7 @@ import lombok.SneakyThrows;
  * {@link org.springframework.cache.interceptor.CacheResolver} for JCache
  *
  * @author David Hsing
+ *
  * @see "https://www.baeldung.com/jcache"
  * @see org.springframework.boot.cache.autoconfigure.CacheAutoConfiguration
  */

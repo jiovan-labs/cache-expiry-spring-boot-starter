@@ -27,6 +27,7 @@ import org.springframework.data.redis.cache.RedisCacheConfiguration;
  * Utilities for redis cache
  *
  * @author David Hsing
+ *
  * @see org.springframework.boot.cache.autoconfigure.CacheAutoConfiguration
  * @see org.springframework.data.redis.cache.RedisCacheConfiguration
  */

@@ -68,6 +68,7 @@ public class CacheExpiryProperties implements Serializable {
      * Properties for cache interceptor
      *
      * @author David Hsing
+     *
      * @see org.springframework.cache.interceptor.CacheInterceptor
      */
     @Getter
@@ -87,6 +88,7 @@ public class CacheExpiryProperties implements Serializable {
      * Properties for cache manager
      *
      * @author David Hsing
+     *
      * @see org.springframework.cache.CacheManager
      */
     @Getter
@@ -120,6 +122,7 @@ public class CacheExpiryProperties implements Serializable {
      * Properties for cache resolver
      *
      * @author David Hsing
+     *
      * @see com.jiovan.spring.starter.cacheexpiry.resolver.ExpiryCacheResolver
      */
     @Getter
@@ -146,6 +149,7 @@ public class CacheExpiryProperties implements Serializable {
      * Properties for cache name resolver
      *
      * @author David Hsing
+     *
      * @see com.jiovan.spring.starter.cacheexpiry.resolver.CacheNameResolver
      */
     @Getter

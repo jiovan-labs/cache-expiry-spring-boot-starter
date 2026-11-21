@@ -50,6 +50,7 @@ import lombok.SneakyThrows;
  * {@link org.springframework.cache.interceptor.CacheResolver} for Caffeine
  *
  * @author David Hsing
+ *
  * @see "https://www.baeldung.com/java-caching-caffeine"
  * @see org.springframework.boot.cache.autoconfigure.CacheAutoConfiguration
  */

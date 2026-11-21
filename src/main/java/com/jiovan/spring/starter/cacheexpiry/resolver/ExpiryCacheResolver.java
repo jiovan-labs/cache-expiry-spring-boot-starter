@@ -25,6 +25,7 @@ import org.springframework.cache.interceptor.CacheResolver;
  * {@link org.springframework.cache.interceptor.CacheResolver} with expiry capable
  *
  * @author David Hsing
+ *
  * @see org.springframework.cache.interceptor.CacheResolver
  */
 public interface ExpiryCacheResolver extends BeanFactoryAware, CacheResolver {

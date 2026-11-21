@@ -31,6 +31,7 @@ import lombok.Getter;
  * Since the {@code key} attribute of {@link org.springframework.cache.annotation.Cacheable} is SpEL, while the {@code cacheNames} is not
  *
  * @author David Hsing
+ *
  * @see org.springframework.cache.interceptor.SimpleCacheResolver
  */
 @Getter

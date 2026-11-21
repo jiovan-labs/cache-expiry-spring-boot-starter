@@ -51,6 +51,7 @@ import lombok.SneakyThrows;
  * {@link org.springframework.cache.interceptor.CacheResolver} for Redis
  *
  * @author David Hsing
+ *
  * @see "https://blog.csdn.net/liuyanglglg/article/details/102916371"
  * @see org.springframework.boot.cache.autoconfigure.CacheAutoConfiguration
  * @see org.springframework.cache.interceptor.AbstractCacheResolver
